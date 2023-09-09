@@ -60,7 +60,7 @@ export class Sheet {
       Sheet.getClassNamePrefix(isDynamic) + generateHash(JSON.stringify(style));
     this._addBaseRule(className, style.base);
     for (const [breakpoint, css] of Object.entries(style.responsive)) {
-      this._addMediaRule(className, css, breakpoint);
+      this._addMediaRule(className, this._processCSS(css), breakpoint);
     }
     for (const [_, pseudo] of Object.entries(style.pseudo)) {
       this._addPseudoRule(className, pseudo);
@@ -69,6 +69,7 @@ export class Sheet {
   }
 
   private _addBaseRule(className: string, css: string) {
+    css = this._processCSS(css);
     const minifiedCss = removeSpacesAroundCssPropertyValues(css);
     this.base.push(`.${className}{${minifiedCss}}`);
   }
@@ -89,7 +90,7 @@ export class Sheet {
     className: string,
     pseudo: SystemStyle["pseudo"][number]
   ) {
-    const css = removeSpacesAroundCssPropertyValues(pseudo.base);
+    const css = removeSpacesAroundCssPropertyValues(this._processCSS(pseudo.base));
     const pseudoCss = removeSpacesExceptInProperties(
       `.${className}${pseudo.key} { ${css} }`
     );
@@ -99,15 +100,20 @@ export class Sheet {
     }
   }
 
+  _processCSS(css: string) : string {
+    const placeholders = theme.getPlaceholders();
+    const scalingFactor = theme.getSpacingScalingFactor();
+
+    return applyT(css, placeholders, scalingFactor);
+  }
+
   /**
    * parseCSS takes in raw CSS and parses it to valid CSS using Stylis.
    * It's useful for handling complex CSS such as media queries and pseudo selectors.
    */
   parseCSS(style: string): string {
-    const placeholders = theme.getPlaceholders();
-    const scalingFactor = theme.getSpacingScalingFactor();
 
-    style = applyT(style, placeholders, scalingFactor);
+    style = this._processCSS(style);
 
     const id = Sheet.getClassNamePrefix() + generateHash(style);
 
