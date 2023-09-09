@@ -1,7 +1,7 @@
 import { transformSync } from "@babel/core";
-import { compile } from "@kuma-ui/compiler";
+import { compile } from "@travelated-kuma-ui/compiler";
 import pluin from ".";
-import { sheet } from "@kuma-ui/sheet";
+import { sheet } from "@travelated-kuma-ui/sheet";
 
 export function transform(code: string, id: string) {
   const result = transformSync(code, {

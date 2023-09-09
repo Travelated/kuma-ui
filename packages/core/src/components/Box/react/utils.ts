@@ -1,4 +1,4 @@
-import { isStyledProp, isPseudoProps, StyleGenerator } from "@kuma-ui/system";
+import { isStyledProp, isPseudoProps, StyleGenerator } from "@travelated-kuma-ui/system";
 import { BoxProps } from "./types";
 import { stableStringify } from "../../../utils/stableStringify";
 

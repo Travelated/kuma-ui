@@ -7,7 +7,7 @@ describe("k api", () => {
       test("basic usage should match snapshot", () => {
         // Arrange
         const inputCode = `
-        import { k } from '@kuma-ui/core'
+        import { k } from '@travelated-kuma-ui/core'
         function App() {
           return <k.div fontSize={24}></k.div>
         }
@@ -21,7 +21,7 @@ describe("k api", () => {
       test("using responsive props should match snapshot", () => {
         // Arrange
         const inputCode = `
-        import { k } from '@kuma-ui/core'
+        import { k } from '@travelated-kuma-ui/core'
         function App() {
           return <k.a fontSize={[16, 24]} />
         }
@@ -35,7 +35,7 @@ describe("k api", () => {
       test("using space props should match snapshot", () => {
         // Arrange
         const inputCode = `
-        import { k } from '@kuma-ui/core'
+        import { k } from '@travelated-kuma-ui/core'
         function App() {
           return <k.div p={2} />
         }
@@ -49,7 +49,7 @@ describe("k api", () => {
       test("using pseudo elements should match snapshot", () => {
         // Arrange
         const inputCode = `
-        import { k } from '@kuma-ui/core'
+        import { k } from '@travelated-kuma-ui/core'
         function App() {
           return <k.div p={2} _after={{ color: 'blue' }} />
         }
@@ -63,7 +63,7 @@ describe("k api", () => {
       test("using pseudo props should match snapshot", () => {
         // Arrange
         const inputCode = `
-        import { k } from '@kuma-ui/core'
+        import { k } from '@travelated-kuma-ui/core'
         function App() {
           return <k.span p={2} _hover={{ color: 'red' }} />
         }
@@ -77,7 +77,7 @@ describe("k api", () => {
       test("using className prop should match snapshot", () => {
         // Arrange
         const inputCode = `
-        import { k, css } from '@kuma-ui/core'
+        import { k, css } from '@travelated-kuma-ui/core'
         function App() {
           return (
             <k.div
@@ -97,7 +97,7 @@ describe("k api", () => {
       test("should match snapshot when k is used more than once", () => {
         // Arrange
         const inputCode = `
-        import { k } from '@kuma-ui/core'
+        import { k } from '@travelated-kuma-ui/core'
         function App() {
           return <k.div fontSize={24}><k.div fontSize={24}></k.div></k.div>
         }

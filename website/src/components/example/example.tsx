@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, styled } from "@kuma-ui/core";
+import { Box, styled } from "@travelated-kuma-ui/core";
 
 export const ExampleContainer = styled("div")`
   margin-top: 1.25rem;

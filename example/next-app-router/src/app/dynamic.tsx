@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Box, Button } from "@kuma-ui/core";
+import { Box, Button } from "@travelated-kuma-ui/core";
 
 export function Dynamic() {
   const [checked, toggle] = React.useReducer((state) => !state, false);

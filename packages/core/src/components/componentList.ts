@@ -51,7 +51,7 @@ import { isImageProps, imageHandler, imageDefaultProps } from "./Image/handler";
 import { isLinkProps, linkHandler, linkDefaultProps } from "./Link/handler";
 import { isGridProps, gridHandler, gridDefaultProps } from "./Grid/handler";
 import { match } from "ts-pattern";
-import { StyledProps } from "@kuma-ui/system";
+import { StyledProps } from "@travelated-kuma-ui/system";
 
 export const componentList = Object.freeze({
   // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access -- FIXME

@@ -1,4 +1,4 @@
-// to avoid cyclic dependency, we declare an exact same type declared in @kuma-ui/system
+// to avoid cyclic dependency, we declare an exact same type declared in @travelated-kuma-ui/system
 type ResponsiveStyle = {
   base: string;
   media: {

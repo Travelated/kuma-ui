@@ -1,4 +1,4 @@
-const { withKumaUI } = require("@kuma-ui/next-plugin");
+const { withKumaUI } = require("@travelated-kuma-ui/next-plugin");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {

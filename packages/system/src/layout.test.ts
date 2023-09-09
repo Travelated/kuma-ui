@@ -1,4 +1,4 @@
-import { theme } from "@kuma-ui/sheet";
+import { theme } from "@travelated-kuma-ui/sheet";
 import { LayoutProps } from ".";
 import { grid } from "./grid";
 import { beforeAll, describe, expect, test } from "vitest";

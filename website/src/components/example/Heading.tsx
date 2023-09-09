@@ -1,4 +1,4 @@
-import { Heading } from "@kuma-ui/core";
+import { Heading } from "@travelated-kuma-ui/core";
 import { useTheme } from "nextra-theme-docs";
 
 export const HeadingExample = () => {

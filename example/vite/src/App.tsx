@@ -1,4 +1,4 @@
-import { Box, HStack, styled, css, Select as S, Text } from "@kuma-ui/core";
+import { Box, HStack, styled, css, Select as S, Text } from "@travelated-kuma-ui/core";
 import { Dynamic } from "./Dynamic";
 
 function App() {

@@ -1,4 +1,4 @@
-import { Select } from "@kuma-ui/core";
+import { Select } from "@travelated-kuma-ui/core";
 
 export const SelectExample = () => {
   return (

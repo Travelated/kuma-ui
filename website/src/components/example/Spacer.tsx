@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Spacer, Flex } from "@kuma-ui/core";
+import { Box, Spacer, Flex } from "@travelated-kuma-ui/core";
 
 export const ExampleSpacerVertical = () => {
   return (

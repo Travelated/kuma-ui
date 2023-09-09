@@ -16,7 +16,7 @@
     "declaration": true,
     "declarationDir": "dist",
     "paths": {
-      "@kuma-ui/*": ["./packages/*/src"]
+      "@travelated-kuma-ui/*": ["./packages/*/src"]
     },
     "types": ["node"]
   },

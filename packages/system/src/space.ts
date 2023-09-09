@@ -8,7 +8,7 @@ import {
   ResponsiveStyle,
   ThemeSystemType,
 } from "./types";
-import { theme } from "@kuma-ui/sheet";
+import { theme } from "@travelated-kuma-ui/sheet";
 import { spaceConverter } from "./valueConverters";
 
 export type SpaceProps<T extends ThemeSystemType = ThemeSystemType> = Partial<

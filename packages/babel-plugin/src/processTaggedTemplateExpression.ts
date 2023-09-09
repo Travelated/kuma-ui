@@ -1,4 +1,4 @@
-import { sheet } from "@kuma-ui/sheet";
+import { sheet } from "@travelated-kuma-ui/sheet";
 import type { NodePath, template as Template } from "@babel/core";
 import { types as t } from "@babel/core";
 

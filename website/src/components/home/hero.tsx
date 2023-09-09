@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Heading, css, Text, Link } from "@kuma-ui/core";
+import { Box, Heading, css, Text, Link } from "@travelated-kuma-ui/core";
 import { useConfig } from "nextra-theme-docs";
 import { useState, useEffect } from "react";
 

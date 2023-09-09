@@ -1,4 +1,4 @@
-import { StyledProps, PseudoProps } from "@kuma-ui/system";
+import { StyledProps, PseudoProps } from "@travelated-kuma-ui/system";
 import React, { ReactNode } from "react";
 import {
   As,
@@ -9,7 +9,7 @@ import {
 } from "../types";
 import { Box } from "../Box";
 import { SpacerSpecificProps, spacerHandler } from "./handler";
-import { theme } from "@kuma-ui/sheet";
+import { theme } from "@travelated-kuma-ui/sheet";
 
 // eslint-disable-next-line @typescript-eslint/no-redundant-type-constituents -- FIXME
 type SpacerProps = ComponentProps<"Spacer"> & SpacerSpecificProps;

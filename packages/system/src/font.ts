@@ -7,7 +7,7 @@ import {
   ThemeSystemType,
 } from "./types";
 import { applyResponsiveStyles } from "./responsive";
-import { theme } from "@kuma-ui/sheet";
+import { theme } from "@travelated-kuma-ui/sheet";
 
 export type FontProps<T extends ThemeSystemType = ThemeSystemType> = Partial<
   CSSProperties<"font"> &

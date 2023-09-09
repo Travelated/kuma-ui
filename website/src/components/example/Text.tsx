@@ -1,4 +1,4 @@
-import { Text } from "@kuma-ui/core";
+import { Text } from "@travelated-kuma-ui/core";
 import { useTheme } from "nextra-theme-docs";
 
 export const TextExample = () => {

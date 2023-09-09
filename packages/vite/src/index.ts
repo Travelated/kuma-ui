@@ -1,11 +1,11 @@
-import { transform } from "@kuma-ui/babel-plugin";
+import { transform } from "@travelated-kuma-ui/babel-plugin";
 import { Plugin } from "vite";
 import path from "path";
 import { buildSync } from "esbuild";
 import _eval from "eval";
-import { theme, sheet } from "@kuma-ui/sheet";
+import { theme, sheet } from "@travelated-kuma-ui/sheet";
 import { readdirSync } from "fs";
-import { generateHash } from "@kuma-ui/sheet";
+import { generateHash } from "@travelated-kuma-ui/sheet";
 
 export default function kumaUI(): Plugin {
   let mode: "build" | "serve";
@@ -56,10 +56,10 @@ export default function kumaUI(): Plugin {
       return config;
     },
     transform(code: string, id: string) {
-      if (id.includes("@kuma-ui")) return;
+      if (id.includes("@travelated-kuma-ui")) return;
       if (!/\.(t|j)(s|sx)?$/.test(id)) return;
       if (/node_modules/.test(id)) return;
-      if (!code.includes("@kuma-ui/core")) return;
+      if (!code.includes("@travelated-kuma-ui/core")) return;
 
       const result = transform(code, id);
       if (!result?.code) return;

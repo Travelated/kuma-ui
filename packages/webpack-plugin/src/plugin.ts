@@ -1,7 +1,7 @@
 import { Compiler } from "webpack";
 import { buildSync } from "esbuild";
 import eval from "eval";
-import { theme } from "@kuma-ui/sheet";
+import { theme } from "@travelated-kuma-ui/sheet";
 import path from "path";
 import { readdirSync } from "fs";
 

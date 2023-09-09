@@ -1,4 +1,4 @@
-# @kuma-ui/sheet
+# @travelated-kuma-ui/sheet
 
 ## 1.2.0
 
@@ -48,7 +48,7 @@
 
 ### Minor Changes
 
-- [#126](https://github.com/poteboy/kuma-ui/pull/126) [`c89e97c`](https://github.com/poteboy/kuma-ui/commit/c89e97c2f2d3fc56586d0e02d5d8ff873b9eee6a) Thanks [@poteboy](https://github.com/poteboy)! - Introducing Theming, Hybrid CSS-in-JS, and Universal UI Components in @kuma-ui/core
+- [#126](https://github.com/poteboy/kuma-ui/pull/126) [`c89e97c`](https://github.com/poteboy/kuma-ui/commit/c89e97c2f2d3fc56586d0e02d5d8ff873b9eee6a) Thanks [@poteboy](https://github.com/poteboy)! - Introducing Theming, Hybrid CSS-in-JS, and Universal UI Components in @travelated-kuma-ui/core
 
 ## 0.5.1
 

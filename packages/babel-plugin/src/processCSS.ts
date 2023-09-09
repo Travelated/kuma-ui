@@ -1,7 +1,7 @@
 import { type NodePath, template as Template, types } from "@babel/core";
 import { extractStylePropsFromObjectExpression } from "./extractStyleProps/fromObject";
-import { sheet, SystemStyle } from "@kuma-ui/sheet";
-import { all, normalizePseudo, type PseudoProps } from "@kuma-ui/system";
+import { sheet, SystemStyle } from "@travelated-kuma-ui/sheet";
+import { all, normalizePseudo, type PseudoProps } from "@travelated-kuma-ui/system";
 
 /**
  * Processes CSS function calls in the AST, extracts styles defined as JavaScript objects,

@@ -7,11 +7,11 @@
 **[Documentation](https://kuma-ui.com)**
 
  <div>
-    <a href='https://www.npmjs.com/package/@kuma-ui/core'>
-      <img src='https://img.shields.io/npm/v/@kuma-ui/core'>
+    <a href='https://www.npmjs.com/package/@travelated-kuma-ui/core'>
+      <img src='https://img.shields.io/npm/v/@travelated-kuma-ui/core'>
     </a>
-    <a href='https://bundlephobia.com/package/@kuma-ui/core'>
-      <img src='https://img.shields.io/bundlephobia/minzip/@kuma-ui/core'>
+    <a href='https://bundlephobia.com/package/@travelated-kuma-ui/core'>
+      <img src='https://img.shields.io/bundlephobia/minzip/@travelated-kuma-ui/core'>
     </a>
   </div>
   <br />
@@ -38,7 +38,7 @@ https://github.com/kuma-ui/kuma-ui/assets/59927325/c3f7da97-dbff-49bb-a578-1cb91
 ## 💻 Installation
 
 ```sh
-npm install @kuma-ui/core
+npm install @travelated-kuma-ui/core
 ```
 
 For installation instructions and more detailed information, please visit our [documentation](https://www.kuma-ui.com/docs/install). Be sure to check out our guide for setting up Kuma UI with your specific framework (Next.js or Vite).

@@ -1,4 +1,4 @@
-import { sheet } from "@kuma-ui/sheet";
+import { sheet } from "@travelated-kuma-ui/sheet";
 import type { NodePath, PluginPass, PluginObj, types as t } from "@babel/core";
 import { ensureReactImport } from "./ensureReactImport";
 import type { Core } from "./core";
@@ -15,7 +15,7 @@ import { hasCoreImportDeclaration } from "./hasCoreImportDeclaration";
 export const styledFunctionsMap = new Map<string, Node[]>();
 
 export const visitor = ({ types: t, template }: Core) => {
-  // Keep track of the local name for the imported 'styled' function from '@kuma-ui/core'
+  // Keep track of the local name for the imported 'styled' function from '@travelated-kuma-ui/core'
   // This is necessary to handle cases where the 'styled' function is imported with a different name
   let importedStyleFunctions: Record<string, string> = {};
 
@@ -29,9 +29,9 @@ export const visitor = ({ types: t, template }: Core) => {
         ensureReactImport(path, t);
         // Reset the importedStyleFunctions
         importedStyleFunctions = collectImportedStyled(path, t);
-        // Create an import statement for the 'Box' component from '@kuma-ui/core'
+        // Create an import statement for the 'Box' component from '@travelated-kuma-ui/core'
         importBox(path, importedStyleFunctions);
-        // Replace the 'k' function from '@kuma-ui/core' with the corresponding HTML tag
+        // Replace the 'k' function from '@travelated-kuma-ui/core' with the corresponding HTML tag
         replaceKwithBox(path, t, importedStyleFunctions);
         // Process CSS function calls and generate the hashed classNames
         // processCSS(path, t, template, importedStyleFunctions);

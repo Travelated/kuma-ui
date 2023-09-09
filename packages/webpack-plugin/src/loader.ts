@@ -1,4 +1,4 @@
-import { transform } from "@kuma-ui/babel-plugin";
+import { transform } from "@travelated-kuma-ui/babel-plugin";
 import path from "path";
 import fs from "fs";
 import type { LoaderContext, RawLoaderDefinitionFunction } from "webpack";
@@ -23,7 +23,7 @@ const kumaUiLoader: RawLoaderDefinitionFunction<Options> = function (
 
   if (
     id.includes("/node_modules/") ||
-    id.includes("@kuma-ui/core") ||
+    id.includes("@travelated-kuma-ui/core") ||
     !/\.(t|j)(s|sx)?$/.test(id)
   ) {
     callback(null, source);

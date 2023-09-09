@@ -7,7 +7,7 @@ import {
   AddProperty,
 } from "./types";
 import { applyResponsiveStyles } from "./responsive";
-import { theme } from "@kuma-ui/sheet";
+import { theme } from "@travelated-kuma-ui/sheet";
 
 export type TypographyProps<T extends ThemeSystemType = ThemeSystemType> =
   Partial<

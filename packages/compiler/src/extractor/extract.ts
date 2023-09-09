@@ -12,14 +12,14 @@ import {
   all,
   SystemStyle,
   StyleGenerator,
-} from "@kuma-ui/system";
+} from "@travelated-kuma-ui/system";
 import {
   componentDefaultProps,
   componentList,
   isComponentProps,
   componentHandler,
-} from "@kuma-ui/core/components/componentList";
-import { theme } from "@kuma-ui/sheet";
+} from "@travelated-kuma-ui/core/components/componentList";
+import { theme } from "@travelated-kuma-ui/sheet";
 import { stableStringify } from "../utils/stableStringify";
 
 export const extractProps = (

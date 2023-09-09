@@ -10,8 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@kuma-ui/core": "workspace:^",
-    "@kuma-ui/vite": "workspace:^",
+    "@travelated-kuma-ui/core": "workspace:^",
+    "@travelated-kuma-ui/vite": "workspace:^",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

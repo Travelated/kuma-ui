@@ -1,4 +1,4 @@
-import { Box, Heading, css, Text } from "@kuma-ui/core";
+import { Box, Heading, css, Text } from "@travelated-kuma-ui/core";
 import Image from "next/image";
 
 type Profile = {

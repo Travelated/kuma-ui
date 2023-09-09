@@ -1,4 +1,4 @@
-import { Image } from "@kuma-ui/core";
+import { Image } from "@travelated-kuma-ui/core";
 
 export const ImageExample = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex } from "@kuma-ui/core";
+import { Box, Flex } from "@travelated-kuma-ui/core";
 
 export const FlexExample = () => {
   return (

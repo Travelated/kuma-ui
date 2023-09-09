@@ -5,7 +5,7 @@ export const defaultBreakpoints = Object.freeze({
   xl: "1200px",
 });
 
-// to avoid cyclic dependency, we declare an exact same type declared in @kuma-ui/core
+// to avoid cyclic dependency, we declare an exact same type declared in @travelated-kuma-ui/core
 type ComponentName =
   | "Box"
   | "Flex"

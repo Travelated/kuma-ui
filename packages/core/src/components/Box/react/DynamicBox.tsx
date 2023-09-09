@@ -8,7 +8,7 @@ import {
   createStyleRegistry,
 } from "../../../registry/StyleRegistry";
 import { extractDynamicProps, getCachedStyle } from "./utils";
-import { theme } from "@kuma-ui/sheet";
+import { theme } from "@travelated-kuma-ui/sheet";
 
 const defaultRegistry = createStyleRegistry();
 const useInsertionEffect = React.useInsertionEffect || React.useLayoutEffect;

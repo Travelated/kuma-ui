@@ -1,4 +1,4 @@
-import { theme } from "@kuma-ui/sheet";
+import { theme } from "@travelated-kuma-ui/sheet";
 import { beforeAll, describe, expect, test } from "vitest";
 import {
   sizeConverter,

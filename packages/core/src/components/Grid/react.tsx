@@ -1,5 +1,5 @@
-import { StyledProps, PseudoProps } from "@kuma-ui/system";
-import { theme } from "@kuma-ui/sheet";
+import { StyledProps, PseudoProps } from "@travelated-kuma-ui/system";
+import { theme } from "@travelated-kuma-ui/sheet";
 import React, { ReactNode } from "react";
 import {
   As,

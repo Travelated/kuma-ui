@@ -1,5 +1,5 @@
 import React from "react";
-import { k } from "@kuma-ui/core";
+import { k } from "@travelated-kuma-ui/core";
 
 export const ThisIsTheKDiv = () => {
   return (

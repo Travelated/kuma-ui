@@ -4,7 +4,7 @@ import {
   StyledProps,
   StyledKeyType,
   PseudoProps,
-} from "@kuma-ui/system";
+} from "@travelated-kuma-ui/system";
 
 export type StyledComponentProps<T> = T extends keyof JSX.IntrinsicElements
   ? JSX.IntrinsicElements[T]

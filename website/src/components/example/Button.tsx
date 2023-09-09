@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "@kuma-ui/core";
+import { Button } from "@travelated-kuma-ui/core";
 
 export const ButtonExample = () => {
   return (

@@ -4,9 +4,9 @@ exports[`k api > Snapshot tests (runtime: automatic) > basic usage should match 
 "
 .🐻-4229161508 { font-size: 24px; }
 
-import { Box as __Box } from \\"@kuma-ui/core\\";
+import { Box as __Box } from \\"@travelated-kuma-ui/core\\";
 import React from \\"react\\";
-import { k } from '@kuma-ui/core';
+import { k } from '@travelated-kuma-ui/core';
 function App() {
   return <__Box as=\\"div\\" IS_KUMA_DEFAULT={true} className={\\"🐻-4229161508\\"}></__Box>;
 }
@@ -17,9 +17,9 @@ exports[`k api > Snapshot tests (runtime: automatic) > should match snapshot whe
 "
 .🐻-4229161508 { font-size: 24px; } .🐻-4229161508 { font-size: 24px; }
 
-import { Box as __Box } from \\"@kuma-ui/core\\";
+import { Box as __Box } from \\"@travelated-kuma-ui/core\\";
 import React from \\"react\\";
-import { k } from '@kuma-ui/core';
+import { k } from '@travelated-kuma-ui/core';
 function App() {
   return <__Box as=\\"div\\" IS_KUMA_DEFAULT={true} className={\\"🐻-4229161508\\"}><__Box as=\\"div\\" IS_KUMA_DEFAULT={true} className={\\"🐻-4229161508\\"}></__Box></__Box>;
 }
@@ -30,9 +30,9 @@ exports[`k api > Snapshot tests (runtime: automatic) > using className prop shou
 "
 .🐻-2131929892 { padding: 2px; }.🐻-2131929892:hover { color: red; }
 
-import { Box as __Box } from \\"@kuma-ui/core\\";
+import { Box as __Box } from \\"@travelated-kuma-ui/core\\";
 import React from \\"react\\";
-import { k, css } from '@kuma-ui/core';
+import { k, css } from '@travelated-kuma-ui/core';
 function App() {
   return <__Box as=\\"div\\" IS_KUMA_DEFAULT={true} className={\`🐻-2131929892 \${css({
           boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)'
@@ -45,9 +45,9 @@ exports[`k api > Snapshot tests (runtime: automatic) > using pseudo elements sho
 "
 .🐻-2631981251 { padding: 2px; }.🐻-2631981251:after { color: blue; }
 
-import { Box as __Box } from \\"@kuma-ui/core\\";
+import { Box as __Box } from \\"@travelated-kuma-ui/core\\";
 import React from \\"react\\";
-import { k } from '@kuma-ui/core';
+import { k } from '@travelated-kuma-ui/core';
 function App() {
   return <__Box as=\\"div\\" IS_KUMA_DEFAULT={true} className={\\"🐻-2631981251\\"} />;
 }
@@ -58,9 +58,9 @@ exports[`k api > Snapshot tests (runtime: automatic) > using pseudo props should
 "
 .🐻-2131929892 { padding: 2px; }.🐻-2131929892:hover { color: red; }
 
-import { Box as __Box } from \\"@kuma-ui/core\\";
+import { Box as __Box } from \\"@travelated-kuma-ui/core\\";
 import React from \\"react\\";
-import { k } from '@kuma-ui/core';
+import { k } from '@travelated-kuma-ui/core';
 function App() {
   return <__Box as=\\"span\\" IS_KUMA_DEFAULT={true} className={\\"🐻-2131929892\\"} />;
 }
@@ -71,9 +71,9 @@ exports[`k api > Snapshot tests (runtime: automatic) > using responsive props sh
 "
 .🐻-401969115 { font-size: 16px; }@media (min-width: 576px) { .🐻-401969115 { font-size: 24px; } }
 
-import { Box as __Box } from \\"@kuma-ui/core\\";
+import { Box as __Box } from \\"@travelated-kuma-ui/core\\";
 import React from \\"react\\";
-import { k } from '@kuma-ui/core';
+import { k } from '@travelated-kuma-ui/core';
 function App() {
   return <__Box as=\\"a\\" IS_KUMA_DEFAULT={true} className={\\"🐻-401969115\\"} />;
 }
@@ -84,9 +84,9 @@ exports[`k api > Snapshot tests (runtime: automatic) > using space props should 
 "
 .🐻-3206633536 { padding: 2px; }
 
-import { Box as __Box } from \\"@kuma-ui/core\\";
+import { Box as __Box } from \\"@travelated-kuma-ui/core\\";
 import React from \\"react\\";
-import { k } from '@kuma-ui/core';
+import { k } from '@travelated-kuma-ui/core';
 function App() {
   return <__Box as=\\"div\\" IS_KUMA_DEFAULT={true} className={\\"🐻-3206633536\\"} />;
 }
@@ -97,9 +97,9 @@ exports[`k api > Snapshot tests (runtime: classic) > basic usage should match sn
 "
 .🐻-4229161508 { font-size: 24px; }
 
-import { Box as __Box } from \\"@kuma-ui/core\\";
+import { Box as __Box } from \\"@travelated-kuma-ui/core\\";
 import React from \\"react\\";
-import { k } from '@kuma-ui/core';
+import { k } from '@travelated-kuma-ui/core';
 function App() {
   return <__Box as=\\"div\\" IS_KUMA_DEFAULT={true} className={\\"🐻-4229161508\\"}></__Box>;
 }
@@ -110,9 +110,9 @@ exports[`k api > Snapshot tests (runtime: classic) > should match snapshot when 
 "
 .🐻-4229161508 { font-size: 24px; } .🐻-4229161508 { font-size: 24px; }
 
-import { Box as __Box } from \\"@kuma-ui/core\\";
+import { Box as __Box } from \\"@travelated-kuma-ui/core\\";
 import React from \\"react\\";
-import { k } from '@kuma-ui/core';
+import { k } from '@travelated-kuma-ui/core';
 function App() {
   return <__Box as=\\"div\\" IS_KUMA_DEFAULT={true} className={\\"🐻-4229161508\\"}><__Box as=\\"div\\" IS_KUMA_DEFAULT={true} className={\\"🐻-4229161508\\"}></__Box></__Box>;
 }
@@ -123,9 +123,9 @@ exports[`k api > Snapshot tests (runtime: classic) > using className prop should
 "
 .🐻-2131929892 { padding: 2px; }.🐻-2131929892:hover { color: red; }
 
-import { Box as __Box } from \\"@kuma-ui/core\\";
+import { Box as __Box } from \\"@travelated-kuma-ui/core\\";
 import React from \\"react\\";
-import { k, css } from '@kuma-ui/core';
+import { k, css } from '@travelated-kuma-ui/core';
 function App() {
   return <__Box as=\\"div\\" IS_KUMA_DEFAULT={true} className={\`🐻-2131929892 \${css({
           boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)'
@@ -138,9 +138,9 @@ exports[`k api > Snapshot tests (runtime: classic) > using pseudo elements shoul
 "
 .🐻-2631981251 { padding: 2px; }.🐻-2631981251:after { color: blue; }
 
-import { Box as __Box } from \\"@kuma-ui/core\\";
+import { Box as __Box } from \\"@travelated-kuma-ui/core\\";
 import React from \\"react\\";
-import { k } from '@kuma-ui/core';
+import { k } from '@travelated-kuma-ui/core';
 function App() {
   return <__Box as=\\"div\\" IS_KUMA_DEFAULT={true} className={\\"🐻-2631981251\\"} />;
 }
@@ -151,9 +151,9 @@ exports[`k api > Snapshot tests (runtime: classic) > using pseudo props should m
 "
 .🐻-2131929892 { padding: 2px; }.🐻-2131929892:hover { color: red; }
 
-import { Box as __Box } from \\"@kuma-ui/core\\";
+import { Box as __Box } from \\"@travelated-kuma-ui/core\\";
 import React from \\"react\\";
-import { k } from '@kuma-ui/core';
+import { k } from '@travelated-kuma-ui/core';
 function App() {
   return <__Box as=\\"span\\" IS_KUMA_DEFAULT={true} className={\\"🐻-2131929892\\"} />;
 }
@@ -164,9 +164,9 @@ exports[`k api > Snapshot tests (runtime: classic) > using responsive props shou
 "
 .🐻-401969115 { font-size: 16px; }@media (min-width: 576px) { .🐻-401969115 { font-size: 24px; } }
 
-import { Box as __Box } from \\"@kuma-ui/core\\";
+import { Box as __Box } from \\"@travelated-kuma-ui/core\\";
 import React from \\"react\\";
-import { k } from '@kuma-ui/core';
+import { k } from '@travelated-kuma-ui/core';
 function App() {
   return <__Box as=\\"a\\" IS_KUMA_DEFAULT={true} className={\\"🐻-401969115\\"} />;
 }
@@ -177,9 +177,9 @@ exports[`k api > Snapshot tests (runtime: classic) > using space props should ma
 "
 .🐻-3206633536 { padding: 2px; }
 
-import { Box as __Box } from \\"@kuma-ui/core\\";
+import { Box as __Box } from \\"@travelated-kuma-ui/core\\";
 import React from \\"react\\";
-import { k } from '@kuma-ui/core';
+import { k } from '@travelated-kuma-ui/core';
 function App() {
   return <__Box as=\\"div\\" IS_KUMA_DEFAULT={true} className={\\"🐻-3206633536\\"} />;
 }
@@ -190,9 +190,9 @@ exports[`k api > Snapshot tests (runtime: undefined) > basic usage should match 
 "
 .🐻-4229161508 { font-size: 24px; }
 
-import { Box as __Box } from \\"@kuma-ui/core\\";
+import { Box as __Box } from \\"@travelated-kuma-ui/core\\";
 import React from \\"react\\";
-import { k } from '@kuma-ui/core';
+import { k } from '@travelated-kuma-ui/core';
 function App() {
   return <__Box as=\\"div\\" IS_KUMA_DEFAULT={true} className={\\"🐻-4229161508\\"}></__Box>;
 }
@@ -203,9 +203,9 @@ exports[`k api > Snapshot tests (runtime: undefined) > should match snapshot whe
 "
 .🐻-4229161508 { font-size: 24px; } .🐻-4229161508 { font-size: 24px; }
 
-import { Box as __Box } from \\"@kuma-ui/core\\";
+import { Box as __Box } from \\"@travelated-kuma-ui/core\\";
 import React from \\"react\\";
-import { k } from '@kuma-ui/core';
+import { k } from '@travelated-kuma-ui/core';
 function App() {
   return <__Box as=\\"div\\" IS_KUMA_DEFAULT={true} className={\\"🐻-4229161508\\"}><__Box as=\\"div\\" IS_KUMA_DEFAULT={true} className={\\"🐻-4229161508\\"}></__Box></__Box>;
 }
@@ -216,9 +216,9 @@ exports[`k api > Snapshot tests (runtime: undefined) > using className prop shou
 "
 .🐻-2131929892 { padding: 2px; }.🐻-2131929892:hover { color: red; }
 
-import { Box as __Box } from \\"@kuma-ui/core\\";
+import { Box as __Box } from \\"@travelated-kuma-ui/core\\";
 import React from \\"react\\";
-import { k, css } from '@kuma-ui/core';
+import { k, css } from '@travelated-kuma-ui/core';
 function App() {
   return <__Box as=\\"div\\" IS_KUMA_DEFAULT={true} className={\`🐻-2131929892 \${css({
           boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)'
@@ -231,9 +231,9 @@ exports[`k api > Snapshot tests (runtime: undefined) > using pseudo elements sho
 "
 .🐻-2631981251 { padding: 2px; }.🐻-2631981251:after { color: blue; }
 
-import { Box as __Box } from \\"@kuma-ui/core\\";
+import { Box as __Box } from \\"@travelated-kuma-ui/core\\";
 import React from \\"react\\";
-import { k } from '@kuma-ui/core';
+import { k } from '@travelated-kuma-ui/core';
 function App() {
   return <__Box as=\\"div\\" IS_KUMA_DEFAULT={true} className={\\"🐻-2631981251\\"} />;
 }
@@ -244,9 +244,9 @@ exports[`k api > Snapshot tests (runtime: undefined) > using pseudo props should
 "
 .🐻-2131929892 { padding: 2px; }.🐻-2131929892:hover { color: red; }
 
-import { Box as __Box } from \\"@kuma-ui/core\\";
+import { Box as __Box } from \\"@travelated-kuma-ui/core\\";
 import React from \\"react\\";
-import { k } from '@kuma-ui/core';
+import { k } from '@travelated-kuma-ui/core';
 function App() {
   return <__Box as=\\"span\\" IS_KUMA_DEFAULT={true} className={\\"🐻-2131929892\\"} />;
 }
@@ -257,9 +257,9 @@ exports[`k api > Snapshot tests (runtime: undefined) > using responsive props sh
 "
 .🐻-401969115 { font-size: 16px; }@media (min-width: 576px) { .🐻-401969115 { font-size: 24px; } }
 
-import { Box as __Box } from \\"@kuma-ui/core\\";
+import { Box as __Box } from \\"@travelated-kuma-ui/core\\";
 import React from \\"react\\";
-import { k } from '@kuma-ui/core';
+import { k } from '@travelated-kuma-ui/core';
 function App() {
   return <__Box as=\\"a\\" IS_KUMA_DEFAULT={true} className={\\"🐻-401969115\\"} />;
 }
@@ -270,9 +270,9 @@ exports[`k api > Snapshot tests (runtime: undefined) > using space props should 
 "
 .🐻-3206633536 { padding: 2px; }
 
-import { Box as __Box } from \\"@kuma-ui/core\\";
+import { Box as __Box } from \\"@travelated-kuma-ui/core\\";
 import React from \\"react\\";
-import { k } from '@kuma-ui/core';
+import { k } from '@travelated-kuma-ui/core';
 function App() {
   return <__Box as=\\"div\\" IS_KUMA_DEFAULT={true} className={\\"🐻-3206633536\\"} />;
 }

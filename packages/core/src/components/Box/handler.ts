@@ -1,5 +1,5 @@
-import { theme } from "@kuma-ui/sheet";
-import { StyledProps } from "@kuma-ui/system";
+import { theme } from "@travelated-kuma-ui/sheet";
+import { StyledProps } from "@travelated-kuma-ui/system";
 
 // eslint-disable-next-line @typescript-eslint/ban-types
 export type BoxSpecificProps = {};

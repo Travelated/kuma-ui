@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 import { loadConfig } from "browserslist";
 import { type Configuration, type RuleSetRule } from "webpack";
-import KumaUIWebpackPlugin from "@kuma-ui/webpack-plugin";
+import KumaUIWebpackPlugin from "@travelated-kuma-ui/webpack-plugin";
 import { lazyPostCSS } from "next/dist/build/webpack/config/blocks/css";
 import { getGlobalCssLoader } from "next/dist/build/webpack/config/blocks/css/loaders";
 import { findPagesDir } from "next/dist/lib/find-pages-dir";

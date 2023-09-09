@@ -14,7 +14,7 @@ Note that Kuma UI is a headless component library, which means **it doesn't come
 Here's an example of how you can define your theme:
 
 ```ts filename="kuma.config.ts"
-import { createTheme } from "@kuma-ui/core";
+import { createTheme } from "@travelated-kuma-ui/core";
 
 const theme = createTheme({
   colors: {
@@ -43,7 +43,7 @@ const theme = createTheme({
 
 type UserTheme = typeof theme;
 
-declare module "@kuma-ui/core" {
+declare module "@travelated-kuma-ui/core" {
   export interface Theme extends UserTheme {}
 }
 
@@ -57,7 +57,7 @@ If you're using TypeScript, you can benefit from type inference when writing pro
 ```ts copy
 type UserTheme = typeof theme;
 
-declare module "@kuma-ui/core" {
+declare module "@travelated-kuma-ui/core" {
   export interface Theme extends UserTheme {}
 }
 ```

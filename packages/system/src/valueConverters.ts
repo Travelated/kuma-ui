@@ -1,4 +1,4 @@
-import { theme } from "@kuma-ui/sheet";
+import { theme } from "@travelated-kuma-ui/sheet";
 import { toCssUnit } from "./toCSS";
 
 export type ValueConverter = (value: string | number) => string | number;

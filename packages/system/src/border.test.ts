@@ -1,6 +1,6 @@
 import { border, BorderProps } from "./border";
 import { beforeAll, describe, expect, test } from "vitest";
-import { theme } from "@kuma-ui/sheet";
+import { theme } from "@travelated-kuma-ui/sheet";
 
 describe("border utility function", () => {
   beforeAll(() => {

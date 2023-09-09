@@ -1,4 +1,4 @@
-import { VStack, Box } from "@kuma-ui/core";
+import { VStack, Box } from "@travelated-kuma-ui/core";
 
 export const VStackExample = () => {
   return (

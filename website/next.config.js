@@ -1,4 +1,4 @@
-const { withKumaUI } = require("@kuma-ui/next-plugin");
+const { withKumaUI } = require("@travelated-kuma-ui/next-plugin");
 
 const withNextra = require("nextra")({
   theme: "nextra-theme-docs",
