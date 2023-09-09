@@ -33,19 +33,19 @@ describe("Theme utility functions", () => {
 
   describe("applySpacingScalingFactor", () => {
     it("replaces integers with scaled px value", () => {
-      const input = "Margin is t(2)";
+      const input = "Margin is s(2)";
       expect(applySpacingScalingFactor(input, 8)).toBe("Margin is 16px");
     });
 
     it("replaces decimals with scaled px value", () => {
-      const input = "Padding is t(2.5)";
+      const input = "Padding is s(2.5)";
       expect(applySpacingScalingFactor(input, 8)).toBe("Padding is 20px");
     });
 
     it("ignores non-number values", () => {
-      const input = "Something is t(notANumber)";
+      const input = "Something is s(notANumber)";
       expect(applySpacingScalingFactor(input, 8)).toBe(
-        "Something is t(notANumber)"
+        "Something is s(notANumber)"
       );
     });
   });
@@ -119,34 +119,34 @@ describe("Theme utility functions", () => {
 
   describe("applySpacingScalingFactor edge cases", () => {
     it("handles negative numbers", () => {
-      expect(applySpacingScalingFactor("Margin is t(-2)", 8)).toBe(
+      expect(applySpacingScalingFactor("Margin is s(-2)", 8)).toBe(
         "Margin is -16px"
       );
     });
 
     it("handles zero", () => {
-      expect(applySpacingScalingFactor("Padding is t(0)", 8)).toBe(
+      expect(applySpacingScalingFactor("Padding is s(0)", 8)).toBe(
         "Padding is 0px"
       );
     });
 
     it("handles very large numbers", () => {
-      expect(applySpacingScalingFactor("Width is t(1000)", 8)).toBe(
+      expect(applySpacingScalingFactor("Width is s(1000)", 8)).toBe(
         "Width is 8000px"
       );
     });
 
     it("handles multiple spacing factors", () => {
       expect(
-        applySpacingScalingFactor("Margin is t(2) and padding is t(2.5)", 8)
+        applySpacingScalingFactor("Margin is s(2) and padding is s(2.5)", 8)
       ).toBe("Margin is 16px and padding is 20px");
     });
 
     it("handles whitespace around numbers", () => {
-      expect(applySpacingScalingFactor("Margin is t( 2 )", 8)).toBe(
+      expect(applySpacingScalingFactor("Margin is s( 2 )", 8)).toBe(
         "Margin is 16px"
       );
-      expect(applySpacingScalingFactor("Padding is t( 2.5 )", 8)).toBe(
+      expect(applySpacingScalingFactor("Padding is s( 2.5 )", 8)).toBe(
         "Padding is 20px"
       );
     });
@@ -209,25 +209,25 @@ describe("Theme utility functions", () => {
     });
 
     it("should handle spacing scaling factor for positive numbers", () => {
-      const input = "Margin is t(2)";
+      const input = "Margin is s(2)";
       const result = applyT(input, placeholders, 8);
       expect(result).toBe("Margin is 16px");
     });
 
     it("should handle spacing scaling factor for negative numbers", () => {
-      const input = "Margin is t(-2)";
+      const input = "Margin is s(-2)";
       const result = applyT(input, placeholders, 8);
       expect(result).toBe("Margin is -16px");
     });
 
     it("should handle decimals in spacing scaling", () => {
-      const input = "Padding is t(1.5)";
+      const input = "Padding is s(1.5)";
       const result = applyT(input, placeholders, 8);
       expect(result).toBe("Padding is 12px");
     });
 
     it("should handle whitespaces and both single and double quotation marks", () => {
-      const input = 'Color is t("c.primary") and space is t( 1 )';
+      const input = 'Color is t("c.primary") and space is s( 1 )';
       const result = applyT(input, placeholders, 8);
       expect(result).toBe("Color is #FF0000 and space is 8px");
     });

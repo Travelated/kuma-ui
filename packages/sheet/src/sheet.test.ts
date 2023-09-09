@@ -103,6 +103,7 @@ describe("Sheet class", () => {
       const style = `
       color: t("colors.primary");
       background-color: t('c.secondary');
+      margin-top: s(1);
       @media (max-width: t("b.sm")) {
         flex-direction: column;
       }
@@ -110,7 +111,7 @@ describe("Sheet class", () => {
       // Act
       const className = sheet.parseCSS(style);
       // Assert
-      const expectedCSS = `.${className}{color:red;background-color:blue;}@media (max-width: 1000px){.${className}{flex-direction:column;}}`;
+      const expectedCSS = `.${className}{color:red;background-color:blue;margin-top:8px;}@media (max-width: 1000px){.${className}{flex-direction:column;}}`;
       expect(sheet.getCSS()).toEqual(expectedCSS);
     });
   });

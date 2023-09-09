@@ -52,7 +52,7 @@ export const applySpacingScalingFactor = (
   input: string,
   factor: number
 ): string => {
-  const regex = /\bt\s*\(\s*(-?\d+(\.\d+)?)\s*\)/g;
+  const regex = /\bs\s*\(\s*(-?\d+(\.\d+)?)\s*\)/g;
 
   return input.replace(regex, (match, number: string) => {
     const parsedValue = parseFloat(number);
