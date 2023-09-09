@@ -1,5 +1,18 @@
 # @travelated-kuma-ui/webpack-plugin
 
+## 1.2.0
+
+### Minor Changes
+
+- [#315](https://github.com/kuma-ui/kuma-ui/pull/315) [`141193f`](https://github.com/kuma-ui/kuma-ui/commit/141193fef31e1ad4614ad3fa503d07bcc51bf7b6) Thanks [@kotarella1110](https://github.com/kotarella1110)! - feat(webpack): enable automatic rebuild on kuma.config.ts changes
+
+### Patch Changes
+
+- Updated dependencies [[`8d68550`](https://github.com/kuma-ui/kuma-ui/commit/8d685505e17beceafd43d9d3618342e1246032e4), [`8341365`](https://github.com/kuma-ui/kuma-ui/commit/8341365aa9df53a73dd6c86044a666b700fc72e2), [`8e1a211`](https://github.com/kuma-ui/kuma-ui/commit/8e1a211860281f2fb7eb94bb2f8680300ebf7b7c)]:
+  - @travelated-kuma-ui/system@1.5.0
+  - @travelated-kuma-ui/sheet@1.3.0
+  - @travelated-kuma-ui/babel-plugin@1.1.7
+
 ## 1.1.7
 
 ### Patch Changes

@@ -1,5 +1,15 @@
 # @travelated-kuma-ui/sheet
 
+## 1.3.0
+
+### Minor Changes
+
+- [#292](https://github.com/kuma-ui/kuma-ui/pull/292) [`8d68550`](https://github.com/kuma-ui/kuma-ui/commit/8d685505e17beceafd43d9d3618342e1246032e4) Thanks [@nojiritakeshi](https://github.com/nojiritakeshi)! - In the vite project, kuma.config.ts will be HMR
+
+- [`8341365`](https://github.com/kuma-ui/kuma-ui/commit/8341365aa9df53a73dd6c86044a666b700fc72e2) Thanks [@seagullua](https://github.com/seagullua)! - Added placeholder support for tokens in css t("colors.primary")
+
+- [#321](https://github.com/kuma-ui/kuma-ui/pull/321) [`8e1a211`](https://github.com/kuma-ui/kuma-ui/commit/8e1a211860281f2fb7eb94bb2f8680300ebf7b7c) Thanks [@yukukotani](https://github.com/yukukotani)! - Introduce `defaultProps` in component theme
+
 ## 1.2.0
 
 ### Minor Changes
