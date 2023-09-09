@@ -5,6 +5,7 @@ import {
   removeSpacesExceptInProperties,
 } from "./regex";
 import { compile, serialize, stringify, Element } from "stylis";
+import { applyT } from "./placeholders";
 
 // to avoid cyclic dependency, we declare an exact same type declared in @kuma-ui/system
 type ResponsiveStyle = {
@@ -103,6 +104,11 @@ export class Sheet {
    * It's useful for handling complex CSS such as media queries and pseudo selectors.
    */
   parseCSS(style: string): string {
+    const placeholders = theme.getPlaceholders();
+    const scalingFactor = theme.getSpacingScalingFactor();
+
+    style = applyT(style, placeholders, scalingFactor);
+
     const id = Sheet.getClassNamePrefix() + generateHash(style);
 
     const elements: Element[] = [];
