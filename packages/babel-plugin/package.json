@@ -1,10 +1,10 @@
 {
-  "name": "@kuma-ui/babel-plugin",
+  "name": "@travelated-kuma-ui/babel-plugin",
   "version": "1.1.6",
   "description": "🐻 Kuma UI is a utility-first, zero-runtime CSS-in-JS library that offers an outstanding developer experience and optimized performance.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kuma-ui/kuma-ui.git"
+    "url": "git+https://github.com/Travelated/kuma-ui.git"
   },
   "keywords": [
     "react",
@@ -37,10 +37,10 @@
   },
   "dependencies": {
     "@babel/core": "^7.21.4",
-    "@kuma-ui/compiler": "workspace:^",
-    "@kuma-ui/core": "workspace:^",
-    "@kuma-ui/sheet": "workspace:^",
-    "@kuma-ui/system": "workspace:^",
+    "@travelated-kuma-ui/compiler": "workspace:^",
+    "@travelated-kuma-ui/core": "workspace:^",
+    "@travelated-kuma-ui/sheet": "workspace:^",
+    "@travelated-kuma-ui/system": "workspace:^",
     "ts-pattern": "^5.0.1"
   },
   "devDependencies": {

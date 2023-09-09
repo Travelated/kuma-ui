@@ -1,30 +1,30 @@
-# @kuma-ui/sheet
+# @travelated-kuma-ui/sheet
 
 ## 1.2.0
 
 ### Minor Changes
 
-- [#293](https://github.com/kuma-ui/kuma-ui/pull/293) [`638d61d`](https://github.com/kuma-ui/kuma-ui/commit/638d61df0a6dd355d8bb4847e5752877a9895d71) Thanks [@yukukotani](https://github.com/yukukotani)! - Add support for z-index token
+- [#293](https://github.com/Travelated/kuma-ui/pull/293) [`638d61d`](https://github.com/Travelated/kuma-ui/commit/638d61df0a6dd355d8bb4847e5752877a9895d71) Thanks [@yukukotani](https://github.com/yukukotani)! - Add support for z-index token
 
 ### Patch Changes
 
-- [#298](https://github.com/kuma-ui/kuma-ui/pull/298) [`3414300`](https://github.com/kuma-ui/kuma-ui/commit/341430056cff0e4097e0b066726e5c110219eac9) Thanks [@myzkyy](https://github.com/myzkyy)! - Remove regex lookbehinds to support Safari <= 16.3 and some refactoring
+- [#298](https://github.com/Travelated/kuma-ui/pull/298) [`3414300`](https://github.com/Travelated/kuma-ui/commit/341430056cff0e4097e0b066726e5c110219eac9) Thanks [@myzkyy](https://github.com/myzkyy)! - Remove regex lookbehinds to support Safari <= 16.3 and some refactoring
 
 ## 1.1.0
 
 ### Minor Changes
 
-- [#274](https://github.com/kuma-ui/kuma-ui/pull/274) [`bc1a7f9`](https://github.com/kuma-ui/kuma-ui/commit/bc1a7f979f5539a4e2d1d2785dc2a893eee076eb) Thanks [@yukukotani](https://github.com/yukukotani)! - Add support for spacing theme token
+- [#274](https://github.com/Travelated/kuma-ui/pull/274) [`bc1a7f9`](https://github.com/Travelated/kuma-ui/commit/bc1a7f979f5539a4e2d1d2785dc2a893eee076eb) Thanks [@yukukotani](https://github.com/yukukotani)! - Add support for spacing theme token
 
-- [#289](https://github.com/kuma-ui/kuma-ui/pull/289) [`10f9811`](https://github.com/kuma-ui/kuma-ui/commit/10f98111d542f1fa45a6cda18ac872bec7b40910) Thanks [@yukukotani](https://github.com/yukukotani)! - Add support for size token
+- [#289](https://github.com/Travelated/kuma-ui/pull/289) [`10f9811`](https://github.com/Travelated/kuma-ui/commit/10f98111d542f1fa45a6cda18ac872bec7b40910) Thanks [@yukukotani](https://github.com/yukukotani)! - Add support for size token
 
-- [#291](https://github.com/kuma-ui/kuma-ui/pull/291) [`066d043`](https://github.com/kuma-ui/kuma-ui/commit/066d04383d3f4e19fb0460b184e8aa9ed67ae41d) Thanks [@yukukotani](https://github.com/yukukotani)! - Add support for radius token
+- [#291](https://github.com/Travelated/kuma-ui/pull/291) [`066d043`](https://github.com/Travelated/kuma-ui/commit/066d04383d3f4e19fb0460b184e8aa9ed67ae41d) Thanks [@yukukotani](https://github.com/yukukotani)! - Add support for radius token
 
 ## 1.0.2
 
 ### Patch Changes
 
-- [#272](https://github.com/kuma-ui/kuma-ui/pull/272) [`2329a1d`](https://github.com/kuma-ui/kuma-ui/commit/2329a1d9ea2fe4cf2d61cdf4ea87983c75b0d8fb) Thanks [@taishinaritomi](https://github.com/taishinaritomi)! - feat: support font theme tokens
+- [#272](https://github.com/Travelated/kuma-ui/pull/272) [`2329a1d`](https://github.com/Travelated/kuma-ui/commit/2329a1d9ea2fe4cf2d61cdf4ea87983c75b0d8fb) Thanks [@taishinaritomi](https://github.com/taishinaritomi)! - feat: support font theme tokens
 
 ## 1.0.1
 
@@ -48,7 +48,7 @@
 
 ### Minor Changes
 
-- [#126](https://github.com/poteboy/kuma-ui/pull/126) [`c89e97c`](https://github.com/poteboy/kuma-ui/commit/c89e97c2f2d3fc56586d0e02d5d8ff873b9eee6a) Thanks [@poteboy](https://github.com/poteboy)! - Introducing Theming, Hybrid CSS-in-JS, and Universal UI Components in @kuma-ui/core
+- [#126](https://github.com/poteboy/kuma-ui/pull/126) [`c89e97c`](https://github.com/poteboy/kuma-ui/commit/c89e97c2f2d3fc56586d0e02d5d8ff873b9eee6a) Thanks [@poteboy](https://github.com/poteboy)! - Introducing Theming, Hybrid CSS-in-JS, and Universal UI Components in @travelated-kuma-ui/core
 
 ## 0.5.1
 

@@ -1,4 +1,4 @@
-import { StyledProps, PseudoProps } from "@kuma-ui/system";
+import { StyledProps, PseudoProps } from "@travelated-kuma-ui/system";
 import { ThemeSystem } from "./theme";
 
 export const css = (_strings: TemplateStringsArray): string => {

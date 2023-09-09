@@ -1,6 +1,6 @@
 import { RawThemeInput } from "./../theme";
 import { componentList } from "./componentList";
-import { StyledProps, PseudoProps } from "@kuma-ui/system";
+import { StyledProps, PseudoProps } from "@travelated-kuma-ui/system";
 import { ReactNode } from "react";
 import { ThemeSystem } from "../theme";
 import { If, IsUnknown } from "../utils/types";

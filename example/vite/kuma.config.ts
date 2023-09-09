@@ -1,4 +1,4 @@
-import { createTheme } from "@kuma-ui/core";
+import { createTheme } from "@travelated-kuma-ui/core";
 
 const theme = createTheme({
   colors: {
@@ -51,7 +51,7 @@ const theme = createTheme({
 
 type UserTheme = typeof theme;
 
-declare module "@kuma-ui/core" {
+declare module "@travelated-kuma-ui/core" {
   // eslint-disable-next-line @typescript-eslint/no-empty-interface
   export interface Theme extends UserTheme {}
 }

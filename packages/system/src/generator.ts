@@ -1,4 +1,4 @@
-import { Tokens, generateHash, theme } from "@kuma-ui/sheet";
+import { Tokens, generateHash, theme } from "@travelated-kuma-ui/sheet";
 import { SystemStyle } from "./types";
 import { StyledProps } from "./compose";
 import { isStyledProp } from "./keys";

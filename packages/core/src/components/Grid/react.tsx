@@ -1,4 +1,4 @@
-import { theme } from "@kuma-ui/sheet";
+import { theme } from "@travelated-kuma-ui/sheet";
 import React, { ReactNode } from "react";
 import {
   As,

@@ -77,7 +77,7 @@ import {
   gridDefaultProps,
 } from "./Grid/handler";
 import { match } from "ts-pattern";
-import { StyledProps } from "@kuma-ui/system";
+import { StyledProps } from "@travelated-kuma-ui/system";
 import "react";
 
 export const componentList = Object.freeze({

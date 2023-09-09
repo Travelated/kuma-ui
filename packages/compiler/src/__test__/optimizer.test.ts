@@ -1,13 +1,13 @@
 import { compile } from "../compile";
 import { getExpectSnapshot } from "./testUtils";
 import { describe, it, expect } from "vitest";
-import { componentList } from "@kuma-ui/core/components/componentList";
+import { componentList } from "@travelated-kuma-ui/core/components/componentList";
 
 describe("optimizer", () => {
   it("should compile Kuma components to raw HTML when no dynamic props are given", () => {
     // Arrange
     const code = `
-        import { Box, Text } from "@kuma-ui/core";
+        import { Box, Text } from "@travelated-kuma-ui/core";
         
         function App() {
           const red = "red";
@@ -28,7 +28,7 @@ describe("optimizer", () => {
   it("should not compile Kuma components with dynamic props to raw HTML", () => {
     // Arrange
     const code = `
-      import { Box, Text, HStack } from "@kuma-ui/core";
+      import { Box, Text, HStack } from "@travelated-kuma-ui/core";
       import { useState } from 'react'
       
       function App() {
@@ -51,7 +51,7 @@ describe("optimizer", () => {
   it("should not compile to raw HTML when spread attributes are present", () => {
     // Arrange
     const code = `
-      import { Box, Text, HStack } from "@kuma-ui/core";
+      import { Box, Text, HStack } from "@travelated-kuma-ui/core";
       
       function App(props) {
         return (
@@ -72,7 +72,7 @@ describe("optimizer", () => {
   it("should compile SelfClosingTags with static styles to raw HTML", () => {
     // Arrange
     const code = `
-      import { Image } from "@kuma-ui/core";
+      import { Image } from "@travelated-kuma-ui/core";
       
       function App() {
         return (

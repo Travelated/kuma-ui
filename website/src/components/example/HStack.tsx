@@ -1,4 +1,4 @@
-import { HStack, Box } from "@kuma-ui/core";
+import { HStack, Box } from "@travelated-kuma-ui/core";
 
 export const HStackExample = () => {
   return (

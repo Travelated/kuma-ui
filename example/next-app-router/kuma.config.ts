@@ -1,4 +1,4 @@
-import { createTheme } from "@kuma-ui/core";
+import { createTheme } from "@travelated-kuma-ui/core";
 
 const theme = createTheme({
   colors: {
@@ -62,7 +62,7 @@ const theme = createTheme({
 
 type UserTheme = typeof theme;
 
-declare module "@kuma-ui/core" {
+declare module "@travelated-kuma-ui/core" {
   export interface Theme extends UserTheme {}
 }
 

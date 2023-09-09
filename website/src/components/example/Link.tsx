@@ -1,4 +1,4 @@
-import { Link } from "@kuma-ui/core";
+import { Link } from "@travelated-kuma-ui/core";
 
 export const LinkExample = () => {
   return (

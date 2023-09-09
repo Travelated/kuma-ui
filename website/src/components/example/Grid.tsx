@@ -1,4 +1,4 @@
-import { Grid, Box } from "@kuma-ui/core";
+import { Grid, Box } from "@travelated-kuma-ui/core";
 
 export const GridExample = () => {
   return (

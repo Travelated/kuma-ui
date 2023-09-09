@@ -1,5 +1,5 @@
 ---
-"@kuma-ui/core": patch
+"@travelated-kuma-ui/core": patch
 ---
 
 improve createTheme type

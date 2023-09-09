@@ -1,4 +1,4 @@
-import { k, Box, css, styled } from "@kuma-ui/core";
+import { k, Box, css, styled } from "@travelated-kuma-ui/core";
 import { Dynamic } from "./dynamic";
 import { Dynamic2 } from "./dynamic2";
 

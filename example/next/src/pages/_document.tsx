@@ -1,7 +1,7 @@
 import { Html, Head, Main, NextScript } from "next/document";
 
 import Document, { DocumentContext } from "next/document";
-import { createStyleRegistry, StyleRegistry } from "@kuma-ui/core";
+import { createStyleRegistry, StyleRegistry } from "@travelated-kuma-ui/core";
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {

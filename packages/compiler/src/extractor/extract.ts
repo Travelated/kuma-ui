@@ -1,12 +1,12 @@
 import { Node, JsxOpeningElement, JsxSelfClosingElement } from "ts-morph";
-import { isStyledProp, isPseudoProps, StyleGenerator } from "@kuma-ui/system";
+import { isStyledProp, isPseudoProps, StyleGenerator } from "@travelated-kuma-ui/system";
 import {
   componentDefaultProps,
   componentList,
   isComponentProps,
   componentHandler,
-} from "@kuma-ui/core/components/componentList";
-import { theme } from "@kuma-ui/sheet";
+} from "@travelated-kuma-ui/core/components/componentList";
+import { theme } from "@travelated-kuma-ui/sheet";
 
 export const extractProps = (
   componentName: (typeof componentList)[keyof typeof componentList],

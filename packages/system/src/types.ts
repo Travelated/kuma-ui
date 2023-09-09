@@ -1,6 +1,6 @@
 import * as CSS from "csstype";
 import { StyledKeyType } from "./keys";
-import { Tokens } from "@kuma-ui/sheet";
+import { Tokens } from "@travelated-kuma-ui/sheet";
 
 type If<C extends boolean, T, F> = C extends true ? T : F;
 

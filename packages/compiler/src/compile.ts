@@ -7,7 +7,7 @@ import {
 } from "ts-morph";
 import { collectPropsFromJsx } from "./collector";
 import { extractProps } from "./extractor";
-import { componentList } from "@kuma-ui/core/components/componentList";
+import { componentList } from "@travelated-kuma-ui/core/components/componentList";
 import { optimize } from "./optimizer/optimize";
 import { processTaggedTemplateExpression } from "./processTaggedTemplateExpression";
 

@@ -1,7 +1,7 @@
 ---
-"@kuma-ui/compiler": minor
-"@kuma-ui/sheet": minor
-"@kuma-ui/core": minor
+"@travelated-kuma-ui/compiler": minor
+"@travelated-kuma-ui/sheet": minor
+"@travelated-kuma-ui/core": minor
 ---
 
 Introduce `defaultProps` in component theme

@@ -5,7 +5,7 @@ exports[`optimizer > should compile Kuma components to raw HTML when no dynamic 
   .🐻-4011430064 { display: flex;flex-direction: row; }@media (min-width: 576px) { .🐻-4011430064 { flex-direction: column; } } 
   
   
-        import { Box, Text } from \\"@kuma-ui/core\\";
+        import { Box, Text } from \\"@travelated-kuma-ui/core\\";
         
         function App() {
           const red = \\"red\\";
@@ -24,7 +24,7 @@ exports[`optimizer > should compile SelfClosingTags with static styles to raw HT
   
   
   
-      import { Image } from \\"@kuma-ui/core\\";
+      import { Image } from \\"@travelated-kuma-ui/core\\";
       
       function App() {
         return (
@@ -40,7 +40,7 @@ exports[`optimizer > should not compile Kuma components with dynamic props to ra
   .🐻-2037632742 { display: flex;flex-direction: row; } 
   
   
-      import { Box, Text, HStack } from \\"@kuma-ui/core\\";
+      import { Box, Text, HStack } from \\"@travelated-kuma-ui/core\\";
       import { useState } from 'react'
       
       function App() {
@@ -60,7 +60,7 @@ exports[`optimizer > should not compile to raw HTML when spread attributes are p
   .🐻-2037632742 { display: flex;flex-direction: row; } 
   
   
-      import { Box, Text, HStack } from \\"@kuma-ui/core\\";
+      import { Box, Text, HStack } from \\"@travelated-kuma-ui/core\\";
       
       function App(props) {
         return (

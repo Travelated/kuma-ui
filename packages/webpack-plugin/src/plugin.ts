@@ -1,5 +1,5 @@
 import { Compiler } from "webpack";
-import { theme } from "@kuma-ui/sheet";
+import { theme } from "@travelated-kuma-ui/sheet";
 import path from "path";
 import { readdirSync } from "fs";
 import { getUserTheme } from "./getUserTheme";

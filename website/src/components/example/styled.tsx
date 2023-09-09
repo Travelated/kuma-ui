@@ -1,5 +1,5 @@
 import React from "react";
-import { styled } from "@kuma-ui/core";
+import { styled } from "@travelated-kuma-ui/core";
 
 export const ThisIsStyledComponent = styled("div")`
   padding: 8px;

@@ -1,4 +1,4 @@
-import { theme } from "@kuma-ui/sheet";
+import { theme } from "@travelated-kuma-ui/sheet";
 import { babelTransform, getExpectSnapshot } from "./testUtils";
 
 describe("headless component", () => {
@@ -30,7 +30,7 @@ describe("headless component", () => {
   test("using default props should match snapshot", () => {
     // Arrange
     const inputCode = `
-        import { Text } from '@kuma-ui/core'
+        import { Text } from '@travelated-kuma-ui/core'
         function App() {
           return <Text />
         }
@@ -44,7 +44,7 @@ describe("headless component", () => {
   test("using default props with inline props should match snapshot", () => {
     // Arrange
     const inputCode = `
-        import { Text } from '@kuma-ui/core'
+        import { Text } from '@travelated-kuma-ui/core'
         function App() {
           return <Text variant="secondary" fontSize="12px" />
         }

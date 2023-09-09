@@ -58,10 +58,10 @@ importers:
 
   example/next:
     dependencies:
-      '@kuma-ui/core':
+      '@travelated-kuma-ui/core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@kuma-ui/next-plugin':
+      '@travelated-kuma-ui/next-plugin':
         specifier: workspace:*
         version: link:../../packages/next-plugin
       '@types/node':
@@ -88,10 +88,10 @@ importers:
 
   example/next-app-router:
     dependencies:
-      '@kuma-ui/core':
+      '@travelated-kuma-ui/core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@kuma-ui/next-plugin':
+      '@travelated-kuma-ui/next-plugin':
         specifier: workspace:*
         version: link:../../packages/next-plugin
       '@types/node':
@@ -118,10 +118,10 @@ importers:
 
   example/vite:
     dependencies:
-      '@kuma-ui/core':
+      '@travelated-kuma-ui/core':
         specifier: workspace:^
         version: link:../../packages/core
-      '@kuma-ui/vite':
+      '@travelated-kuma-ui/vite':
         specifier: workspace:^
         version: link:../../packages/vite
       react:
@@ -170,7 +170,7 @@ importers:
 
   example/webpack:
     dependencies:
-      '@kuma-ui/core':
+      '@travelated-kuma-ui/core':
         specifier: workspace:^
         version: link:../../packages/core
       react:
@@ -195,7 +195,7 @@ importers:
       '@babel/preset-typescript':
         specifier: ^7.21.4
         version: 7.21.4(@babel/core@7.21.4)
-      '@kuma-ui/webpack-plugin':
+      '@travelated-kuma-ui/webpack-plugin':
         specifier: workspace:^
         version: link:../../packages/webpack-plugin
       '@types/react-dom':
@@ -234,16 +234,16 @@ importers:
       '@babel/core':
         specifier: ^7.21.4
         version: 7.21.4
-      '@kuma-ui/compiler':
+      '@travelated-kuma-ui/compiler':
         specifier: workspace:^
         version: link:../compiler
-      '@kuma-ui/core':
+      '@travelated-kuma-ui/core':
         specifier: workspace:^
         version: link:../core
-      '@kuma-ui/sheet':
+      '@travelated-kuma-ui/sheet':
         specifier: workspace:^
         version: link:../sheet
-      '@kuma-ui/system':
+      '@travelated-kuma-ui/system':
         specifier: workspace:^
         version: link:../system
       ts-pattern:
@@ -280,13 +280,13 @@ importers:
 
   packages/compiler:
     dependencies:
-      '@kuma-ui/core':
+      '@travelated-kuma-ui/core':
         specifier: workspace:^
         version: link:../core
-      '@kuma-ui/sheet':
+      '@travelated-kuma-ui/sheet':
         specifier: workspace:^
         version: link:../sheet
-      '@kuma-ui/system':
+      '@travelated-kuma-ui/system':
         specifier: workspace:^
         version: link:../system
       ts-morph:
@@ -311,10 +311,10 @@ importers:
 
   packages/core:
     dependencies:
-      '@kuma-ui/sheet':
+      '@travelated-kuma-ui/sheet':
         specifier: workspace:*
         version: link:../sheet
-      '@kuma-ui/system':
+      '@travelated-kuma-ui/system':
         specifier: workspace:*
         version: link:../system
       '@types/stylis':
@@ -372,10 +372,10 @@ importers:
       '@babel/preset-typescript':
         specifier: ^7.21.4
         version: 7.21.4(@babel/core@7.21.4)
-      '@kuma-ui/core':
+      '@travelated-kuma-ui/core':
         specifier: workspace:^
         version: link:../core
-      '@kuma-ui/webpack-plugin':
+      '@travelated-kuma-ui/webpack-plugin':
         specifier: workspace:^
         version: link:../webpack-plugin
       babel-loader:
@@ -416,7 +416,7 @@ importers:
 
   packages/system:
     dependencies:
-      '@kuma-ui/sheet':
+      '@travelated-kuma-ui/sheet':
         specifier: workspace:*
         version: link:../sheet
       csstype:
@@ -432,13 +432,13 @@ importers:
 
   packages/vite:
     dependencies:
-      '@kuma-ui/babel-plugin':
+      '@travelated-kuma-ui/babel-plugin':
         specifier: workspace:^
         version: link:../babel-plugin
-      '@kuma-ui/sheet':
+      '@travelated-kuma-ui/sheet':
         specifier: workspace:^
         version: link:../sheet
-      '@kuma-ui/system':
+      '@travelated-kuma-ui/system':
         specifier: workspace:^
         version: link:../system
       esbuild:
@@ -454,13 +454,13 @@ importers:
 
   packages/webpack-plugin:
     dependencies:
-      '@kuma-ui/babel-plugin':
+      '@travelated-kuma-ui/babel-plugin':
         specifier: workspace:^
         version: link:../babel-plugin
-      '@kuma-ui/sheet':
+      '@travelated-kuma-ui/sheet':
         specifier: workspace:^
         version: link:../sheet
-      '@kuma-ui/system':
+      '@travelated-kuma-ui/system':
         specifier: workspace:^
         version: link:../system
       esbuild:
@@ -476,10 +476,10 @@ importers:
 
   website:
     dependencies:
-      '@kuma-ui/core':
+      '@travelated-kuma-ui/core':
         specifier: workspace:^
         version: link:../packages/core
-      '@kuma-ui/next-plugin':
+      '@travelated-kuma-ui/next-plugin':
         specifier: workspace:^
         version: link:../packages/next-plugin
       '@types/node':

@@ -1,5 +1,5 @@
 import React, { Profiler, ProfilerOnRenderCallback } from "react";
-import { Box, Heading, css, Text, Link } from "@kuma-ui/core";
+import { Box, Heading, css, Text, Link } from "@travelated-kuma-ui/core";
 import { useState, useEffect } from "react";
 
 export const Bench = () => {

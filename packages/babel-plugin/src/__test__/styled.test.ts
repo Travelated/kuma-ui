@@ -7,7 +7,7 @@ describe("styled function", () => {
       test("basic usage should match snapshot", () => {
         // Arrange
         const inputCode = `
-        import { styled } from '@kuma-ui/core'
+        import { styled } from '@travelated-kuma-ui/core'
         const Box = styled('div')\`
           position: relative;
           width: 300px;
@@ -33,7 +33,7 @@ describe("styled function", () => {
       test("using pseudo elements should match snapshot", () => {
         // Arrange
         const inputCode = `
-        import { styled } from '@kuma-ui/core'
+        import { styled } from '@travelated-kuma-ui/core'
         const Box = styled('div')\`
           position: relative;
           width: 300px;
@@ -59,7 +59,7 @@ describe("styled function", () => {
       test("using className prop should match snapshot", () => {
         // Arrange
         const inputCode = `
-        import { styled, css } from '@kuma-ui/core'
+        import { styled, css } from '@travelated-kuma-ui/core'
         const Box = styled('span')\`
           position: relative;
           width: 300px;

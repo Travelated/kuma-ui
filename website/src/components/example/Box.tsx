@@ -1,5 +1,5 @@
 import React from "react";
-import { Box } from "@kuma-ui/core";
+import { Box } from "@travelated-kuma-ui/core";
 
 export const ThisIsTheBox = () => {
   return (

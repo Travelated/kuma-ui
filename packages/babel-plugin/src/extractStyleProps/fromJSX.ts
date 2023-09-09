@@ -1,5 +1,5 @@
 import { types as t, type NodePath } from "@babel/core";
-import { isStyledProp, PseudoProps, isPseudoProps } from "@kuma-ui/system";
+import { isStyledProp, PseudoProps, isPseudoProps } from "@travelated-kuma-ui/system";
 import { ExtractedStyleProps } from ".";
 import { extractStylePropsFromObjectExpression } from "./fromObject";
 

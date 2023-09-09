@@ -10,7 +10,7 @@ import { PositionProps, positionMappings } from "./position";
 import { ShadowProps, shadowMappings } from "./shadow";
 import { PseudoProps } from "./pseudo";
 import { ThemeSystemType, ResponsiveStyle } from "./types";
-import { styleCache } from "@kuma-ui/sheet";
+import { styleCache } from "@travelated-kuma-ui/sheet";
 import { GridProps, gridMappings } from "./grid";
 import { ListProps, listMappings } from "./list";
 import { EffectProps, effectMappings } from "./effect";

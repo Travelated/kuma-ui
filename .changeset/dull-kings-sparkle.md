@@ -1,8 +1,8 @@
 ---
-"@kuma-ui/system": minor
-"@kuma-ui/sheet": minor
-"@kuma-ui/vite": minor
-"@kuma-ui/compiler": minor
+"@travelated-kuma-ui/system": minor
+"@travelated-kuma-ui/sheet": minor
+"@travelated-kuma-ui/vite": minor
+"@travelated-kuma-ui/compiler": minor
 ---
 
 In the vite project, kuma.config.ts will be HMR

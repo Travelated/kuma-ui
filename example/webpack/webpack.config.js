@@ -1,7 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const KumaUIWebpackPlugin = require("@kuma-ui/webpack-plugin").default;
+const KumaUIWebpackPlugin = require("@travelated-kuma-ui/webpack-plugin").default;
 
 const dev = process.env.NODE_ENV !== "production";
 

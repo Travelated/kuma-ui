@@ -1,8 +1,8 @@
-import { StyledProps, PseudoProps } from "@kuma-ui/system";
+import { StyledProps, PseudoProps } from "@travelated-kuma-ui/system";
 import React, { ReactNode } from "react";
 import { As, ComponentWithAs, MergeWithAs, PropsOf } from "../types";
 import { Box } from "../Box";
-import { theme } from "@kuma-ui/sheet";
+import { theme } from "@travelated-kuma-ui/sheet";
 import { ComponentProps } from "../types";
 import { defaultInputTag } from "./handler";
 

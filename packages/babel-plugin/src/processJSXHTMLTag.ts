@@ -1,8 +1,8 @@
 import { NodePath, types as t } from "@babel/core";
 import { extractStyleProps } from "./extractStyleProps";
-import { sheet, SystemStyle } from "@kuma-ui/sheet";
-import { all } from "@kuma-ui/system";
-import { normalizePseudo } from "@kuma-ui/system";
+import { sheet, SystemStyle } from "@travelated-kuma-ui/sheet";
+import { all } from "@travelated-kuma-ui/system";
+import { normalizePseudo } from "@travelated-kuma-ui/system";
 
 export const processJSXHTMLTag = (path: NodePath<t.JSXOpeningElement>) => {
   const { filteredAttributes, styledProps, pseudoProps } =

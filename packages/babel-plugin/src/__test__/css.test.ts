@@ -8,7 +8,7 @@ describe("css function", () => {
     test("basic usage should match snapshot", () => {
       // Arrange
       const inputCode = `
-        import { css } from '@kuma-ui/core'
+        import { css } from '@travelated-kuma-ui/core'
         const style = css\`color: red;\`
       `;
       // Act
@@ -20,7 +20,7 @@ describe("css function", () => {
     test("using space props should match snapshot", () => {
       // Arrange
       const inputCode = `
-        import { css } from '@kuma-ui/core'
+        import { css } from '@travelated-kuma-ui/core'
         const style = css\`padding: 2px;\`
       `;
       // Act
@@ -32,7 +32,7 @@ describe("css function", () => {
     test("using pseudo props should match snapshot", () => {
       // Arrange
       const inputCode = `
-        import { css } from '@kuma-ui/core'
+        import { css } from '@travelated-kuma-ui/core'
         const style = css\`
         &:hover {
           color: red;

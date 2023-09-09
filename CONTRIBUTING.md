@@ -18,12 +18,12 @@ Our project uses `pnpm` and `turborepo`. Here's how you can set it up:
 
 Our project is organized into several packages within the `packages` directory:
 
-- **@kuma-ui/babel-plugin** : Prepares for static analysis. It identifies modules imported from Kuma and rewrites the syntax to make it easier to analyze statically.
-- **@kuma-ui/compiler**: Extracts Style Props and converts them to CSS.
-- **@kuma-ui/core**: Provides component groups. Processes Style Props that could not be analyzed statically.
-- **@kuma-ui/system**: Serves as the core of the Styled System. Converts Style Props into actual CSS syntax.
-- **@kuma-ui/sheet**: Stores extracted Style Props and applies the Theme.
-- **@kuma-ui/next-plugin, @kuma-ui/webpack, @kuma-ui/vite**: Plugins for each framework.
+- **@travelated-kuma-ui/babel-plugin** : Prepares for static analysis. It identifies modules imported from Kuma and rewrites the syntax to make it easier to analyze statically.
+- **@travelated-kuma-ui/compiler**: Extracts Style Props and converts them to CSS.
+- **@travelated-kuma-ui/core**: Provides component groups. Processes Style Props that could not be analyzed statically.
+- **@travelated-kuma-ui/system**: Serves as the core of the Styled System. Converts Style Props into actual CSS syntax.
+- **@travelated-kuma-ui/sheet**: Stores extracted Style Props and applies the Theme.
+- **@travelated-kuma-ui/next-plugin, @travelated-kuma-ui/webpack, @travelated-kuma-ui/vite**: Plugins for each framework.
 
 ## Writing Articles or Tutorials
 

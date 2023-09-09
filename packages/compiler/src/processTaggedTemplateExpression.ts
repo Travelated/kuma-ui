@@ -4,7 +4,7 @@ import {
   TaggedTemplateExpression,
   TemplateLiteral,
 } from "ts-morph";
-import { sheet } from "@kuma-ui/sheet";
+import { sheet } from "@travelated-kuma-ui/sheet";
 
 const extractClassName = (templateLiteral: TemplateLiteral) => {
   if (Node.isNoSubstitutionTemplateLiteral(templateLiteral)) {

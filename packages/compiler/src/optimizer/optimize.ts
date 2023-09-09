@@ -1,14 +1,14 @@
 import {
   componentList,
   defaultComponentTag,
-} from "@kuma-ui/core/components/componentList";
+} from "@travelated-kuma-ui/core/components/componentList";
 import {
   JsxOpeningElement,
   JsxSelfClosingElement,
   Node,
   SyntaxKind,
 } from "ts-morph";
-import { isStyledProp, isPseudoProps } from "@kuma-ui/system";
+import { isStyledProp, isPseudoProps } from "@travelated-kuma-ui/system";
 
 /**
  * Optimizes JSX elements by converting Kuma components to raw HTML elements

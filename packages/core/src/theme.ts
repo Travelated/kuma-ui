@@ -12,7 +12,7 @@ import {
   NumberToken,
 } from "./themeTokens";
 import { componentList } from "./components/componentList";
-import { StyledProps, PseudoProps, ThemeSystemType } from "@kuma-ui/system";
+import { StyledProps, PseudoProps, ThemeSystemType } from "@travelated-kuma-ui/system";
 
 type StyleProps = StyledProps & PseudoProps;
 

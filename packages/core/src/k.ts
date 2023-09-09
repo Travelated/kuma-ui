@@ -1,6 +1,6 @@
 import { ThemeSystem } from "./theme";
 import { StyledComponentProps } from "./styled";
-import { StyledProps, StyledKeyType, PseudoProps } from "@kuma-ui/system";
+import { StyledProps, StyledKeyType, PseudoProps } from "@travelated-kuma-ui/system";
 
 type StyledComponent<T extends keyof JSX.IntrinsicElements> = React.FC<
   Omit<StyledComponentProps<T>, StyledKeyType> &

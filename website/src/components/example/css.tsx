@@ -1,5 +1,5 @@
 import React from "react";
-import { css } from "@kuma-ui/core";
+import { css } from "@travelated-kuma-ui/core";
 
 export const ThisIsTheCSS = () => {
   return (

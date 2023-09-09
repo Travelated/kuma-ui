@@ -1,5 +1,5 @@
 import { useReducer } from "react";
-import { k, Box, Button } from "@kuma-ui/core";
+import { k, Box, Button } from "@travelated-kuma-ui/core";
 
 function Dynamic() {
   const [checked, toggle] = useReducer((state) => !state, false);

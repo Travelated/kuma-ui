@@ -1,4 +1,4 @@
-import { StyledProps } from "@kuma-ui/system";
+import { StyledProps } from "@travelated-kuma-ui/system";
 
 export const defaultInputTag = "input";
 

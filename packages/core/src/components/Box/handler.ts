@@ -1,5 +1,5 @@
-import { theme } from "@kuma-ui/sheet";
-import { StyledProps } from "@kuma-ui/system";
+import { theme } from "@travelated-kuma-ui/sheet";
+import { StyledProps } from "@travelated-kuma-ui/system";
 
 export const defaultBoxTag = "div";
 

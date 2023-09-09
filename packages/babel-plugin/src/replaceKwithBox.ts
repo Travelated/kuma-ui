@@ -1,7 +1,7 @@
 import { NodePath, Node, types, template } from "@babel/core";
 
 /**
- * Processes the JSXElement nodes in the AST and replaces the 'k' syntax from '@kuma-ui/core'
+ * Processes the JSXElement nodes in the AST and replaces the 'k' syntax from '@travelated-kuma-ui/core'
  * with corresponding 'Box' component. This allows usage of the 'k' syntax as a shorthand for creating
  * styled components, e.g. <k.div> is transformed to <Box as="div">.
  *
